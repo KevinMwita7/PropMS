@@ -17,11 +17,13 @@ Property Management Solution is powered by [ERPNext](https://github.com/frappe/e
 1. Install CSF_TZ
 ```
 bench get-app https://github.com/aakvatech/CSF_TZ.git
+./env/bin/pip3 install -e apps/CSF_TZ/
 bench --site “site-name” install-app csf_tz
 ```
 2. Install PropMS
 ```
 bench get-app https://github.com/aakvatech/PropMS.git
+./env/bin/pip3 install -e apps/PropMs/
 bench --site “site-name” install-app propms
 ```
 
