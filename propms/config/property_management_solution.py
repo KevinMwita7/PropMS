@@ -130,7 +130,7 @@ def get_data():
 				},
 			]
 		},
-		{
+		'''{
 			"label": _("Property Analytics"),
 			"items": [
 				{
@@ -180,6 +180,6 @@ def get_data():
 					"description": _("Information about all properties in the system"),
 				},
 			]
-		}
+		}'''
 	]
 	return config
