@@ -130,56 +130,56 @@ def get_data():
 				},
 			]
 		},
-		'''{
-			"label": _("Property Analytics"),
-			"items": [
-				{
-					"type": "report",
-					"name": "Outsourcing Attendance",
-					"is_query_report": True,
-					"doctype": "Outsourcing Attendance",
-				},
-				{
-					"type": "report",
-					"name": "Security Attendance Report",
-					"is_query_report": True,
-					"doctype": "Security Attendance",
-				},
-				{
-					"type": "report",
-					"name": "Security Deposit",
-					"is_query_report": True,
-					"doctype": "Journal Entry",
-				},
-				{
-					"type": "report",
-					"name": "Debtors Report",
-					"is_query_report": True,
-					"doctype": "Sales Invoice",
-				},
-				{
-					"type": "report",
-					"name": "Creditors Report",
-					"is_query_report": True,
-					"doctype": "Purchase Invoice",
-				},
-				{
-					"type": "report",
-					"name": "Lease Information",
-					"is_query_report": True,
-					"doctype": "Lease",
-					"label": _("Lease Report"),
-					"description": _("This is to show status of every lease by type of property"),
-				},
-				{
-					"type": "report",
-					"name": "Property Status",
-					"is_query_report": True,
-					"doctype": "Property",
-					"label": _("Property Status"),
-					"description": _("Information about all properties in the system"),
-				},
-			]
-		}'''
+		#{
+		#	"label": _("Property Analytics"),
+		#	"items": [
+		#		{
+		#			"type": "report",
+		#			"name": "Outsourcing Attendance",
+		#			"is_query_report": True,
+		#			"doctype": "Outsourcing Attendance",
+		#		},
+		#		{
+		#			"type": "report",
+		#			"name": "Security Attendance Report",
+		#			"is_query_report": True,
+		#			"doctype": "Security Attendance",
+		#		},
+		#		{
+		#			"type": "report",
+		#			"name": "Security Deposit",
+		#			"is_query_report": True,
+		#			"doctype": "Journal Entry",
+		#		},
+		#		{
+		#			"type": "report",
+		#			"name": "Debtors Report",
+		#			"is_query_report": True,
+		#			"doctype": "Sales Invoice",
+		#		},
+		#		{
+		#			"type": "report",
+		#			"name": "Creditors Report",
+		#			"is_query_report": True,
+		#			"doctype": "Purchase Invoice",
+		#		},
+		#		{
+		#			"type": "report",
+		#			"name": "Lease Information",
+		#			"is_query_report": True,
+		#			"doctype": "Lease",
+		#			"label": _("Lease Report"),
+		#			"description": _("This is to show status of every lease by type of property"),
+		#		},
+		#		{
+		#			"type": "report",
+		#			"name": "Property Status",
+		#			"is_query_report": True,
+		#			"doctype": "Property",
+		#			"label": _("Property Status"),
+		#			"description": _("Information about all properties in the system"),
+		#		},
+		#	]
+		#}
 	]
 	return config
