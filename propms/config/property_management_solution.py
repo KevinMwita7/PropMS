@@ -8,6 +8,16 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
+					"name": "Landlord",
+					"description": _("Property owners."),
+				},
+				{
+					"type": "doctype",
+					"name": "Tenant",
+					"description": _("Individuals or organizations renting out property."),
+				},
+				{
+					"type": "doctype",
 					"name": "Property",
 					"description": _("Property that needs to be managed."),
 				},
@@ -16,16 +26,16 @@ def get_data():
 					"name": "Lease",
 					"description": _("Lease pertaining to the properties."),
 				},
-				{
-					"type": "doctype",
-					"name": "Key Set Detail",
-					"description": _("Key Set Detail"),
-				},
-				{
-					"type": "doctype",
-					"name": "Daily Checklist",
-					"description": _("Daily Checklist"),
-				},
+				#{
+				#	"type": "doctype",
+				#	"name": "Key Set Detail",
+				#	"description": _("Key Set Detail"),
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Daily Checklist",
+				#	"description": _("Daily Checklist"),
+				#},
 				{
 					"type": "doctype",
 					"name": "Exit",
@@ -36,26 +46,26 @@ def get_data():
 					"name": "Meter Reading",
 					"description": _("Meter Reading"),
 				},
-				{
-					"type": "doctype",
-					"name": "Outsourcing Attendance",
-					"description": _("Outsourcing Attendance"),
-				},
-				{
-					"type": "doctype",
-					"name": "Insurance",
-					"description": _("Insurance"),
-				},
-				{
-					"type": "doctype",
-					"name": "Security Attendance",
-					"description": _("Security Attendance"),
-				},
-				{
-					"type": "doctype",
-					"name": "Withholding Tax Summary",
-					"description": _("Withholding Tax Summary"),
-				}
+				#{
+				#	"type": "doctype",
+				#	"name": "Outsourcing Attendance",
+				#	"description": _("Outsourcing Attendance"),
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Insurance",
+				#	"description": _("Insurance"),
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Security Attendance",
+				#	"description": _("Security Attendance"),
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Withholding Tax Summary",
+				#	"description": _("Withholding Tax Summary"),
+				#}
 			]
 		},
 		{
@@ -68,43 +78,43 @@ def get_data():
 					"label": _("Unit Type"),
 					"description": _("Unit Type definition."),
 				},
-				{
-					"type": "doctype",
-					"name": "Property",
-					"description": _("Property database.")
-				},
-				{
-					"type": "doctype",
-					"name": "Checklist Checkup Area",
-					"icon": "fa fa-sitemap",
-					"label": _("Checklist Checkup Area"),
-					"description": _("Areas for Checklist Checkup."),
-				},
-				{
-					"type": "doctype",
-					"name": "Guard Shift",
-					"label": _("Guard Shift"),
-					"description": _("Shif for security guards."),
-				},
-				{
-					"type": "doctype",
-					"name": "Key Set",
-					"icon": "fa fa-sitemap",
-					"label": _("Key Set"),
-					"description": _("Key sets in custody."),
-				},
-				{
-					"type": "doctype",
-					"name": "Outsourcing Category",
-					"label": _("Outsourcing Category"),
-					"description": _("Outsourcing Category definition."),
-				},
-				{
-					"type": "doctype",
-					"name": "Property Amenity",
-					"label": _("Property Amenity"),
-					"description": _("Property Amenity definition."),
-				},
+				#{
+				#	"type": "doctype",
+				#	"name": "Property",
+				#	"description": _("Property database.")
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Checklist Checkup Area",
+				#	"icon": "fa fa-sitemap",
+				#	"label": _("Checklist Checkup Area"),
+				#	"description": _("Areas for Checklist Checkup."),
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Guard Shift",
+				#	"label": _("Guard Shift"),
+				#	"description": _("Shif for security guards."),
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Key Set",
+				#	"icon": "fa fa-sitemap",
+				#	"label": _("Key Set"),
+				#	"description": _("Key sets in custody."),
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Outsourcing Category",
+				#	"label": _("Outsourcing Category"),
+				#	"description": _("Outsourcing Category definition."),
+				#},
+				#{
+				#	"type": "doctype",
+				#	"name": "Property Amenity",
+				#	"label": _("Property Amenity"),
+				#	"description": _("Property Amenity definition."),
+				#},
 				{
 					"type": "doctype",
 					"name": "Security Deposit Details",
